@@ -1,3 +1,43 @@
-body {
-    color: Grey
+.link {
+    color: red;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+}
+
+.link:active {
+    text-decoration-color: green;
+    color: aqua;
+}
+
+.link:visited {
+    color: black;
+}
+
+input {
+    width: 100px;
+}
+
+input:focus {
+    width: 200px;
+    background-color: aqua;
+}
+input:disabled {
+    width: 250px;
+}
+p.main-text::before {
+    content: ' text';
+    font-size: 55px;
+    text-decoration: line-through;
+    cursor: pointer;
+}
+p.main-text::first-letter {
+    content: ' text';
+    font-size: 25px;
+    text-decoration: line-through;
+    cursor: pointer;
 }
