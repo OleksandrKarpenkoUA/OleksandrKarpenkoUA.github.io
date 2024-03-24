@@ -7,3 +7,4 @@ function factorial(number) {
 }
 
 factorial(5);
+let myNumber = 18;
